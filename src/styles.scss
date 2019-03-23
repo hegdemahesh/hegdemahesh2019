@@ -1,4 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Amatic SC', cursive;
+
+*/
+
 body {
-    background-color: #2e282a;
+    background-color: #f1ede6;
+    font-family: 'EB Garamond';
+}
+
+h1 {
+    font-family: 'Roboto Slab';
+    font-size: 2em;
+    font-weight: 100;
+    margin-block-start: 0.33em;
+    margin-block-end: 0.13em;
+    margin-left: 20px;
+    
+}
+
+p, h3 {
+    font-family: 'Satisfy';
+    //font-weight: 300;
+    margin-block-start: 0.13em;
+    margin-block-end: 0.13em;
+    margin-left: 20px;
+}
+
+.portraitImage {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: auto;
+}
+
+.innerText {
+    font-family: 'Raleway';
 }
