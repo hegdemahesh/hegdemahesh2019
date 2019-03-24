@@ -56,6 +56,10 @@ p, h3 {
     }
 }
 
+.contentHome {
+    margin-top: 40px;
+}
+
 .portraitImage {
     position: absolute;
     bottom: 0px;
@@ -69,10 +73,27 @@ p, h3 {
 .innerText {
     font-family: 'Raleway';
     z-index: 1;
-    margin-top: 60px;
+    margin-top: 20px;
     width: 33%;
     font-size: 1em;
     margin-bottom: 20px;
+    @media screen and (max-width: 768px) {
+        font-size: 0.8em;
+        
+    }
+}
+
+.innerTextfull {
+    font-family: 'Raleway';
+    z-index: 1;
+    margin-top: 20px;
+    width: 66%;
+    font-size: 1em;
+    margin-bottom: 20px;
+    @media screen and (max-width: 768px) {
+        font-size: 0.8em;
+        
+    }
 }
 
 .actionButton {
@@ -83,10 +104,26 @@ p, h3 {
     padding: 10px;
     font-weight: bold;
     cursor: pointer;
+    margin-right: 10px;
+    @media screen and (max-width: 768px) {
+        font-size: 0.8em;
+        
+    }
 }
 
 .buttonHolder {
     margin-left: 20px;
     width: 33%;
     margin-top: 10px;
+}
+
+.workImage {
+    width: 60%;
+    height: auto;
+}
+
+.workFlyer {
+    margin-left: 20px;
+    width: 66%;
+    margin-bottom: 40px; 
 }
