@@ -16,7 +16,7 @@ font-family: 'Amatic SC', cursive;
 
 body {
     background-color: #f1ede6;
-    font-family: 'EB Garamond';
+    font-family: 'Raleway';
 }
 
 h1 {
@@ -26,15 +26,34 @@ h1 {
     margin-block-start: 0.33em;
     margin-block-end: 0.13em;
     margin-left: 20px;
+    @media screen and (max-width: 768px) {
+        
+        font-size: 1.3em;
+        font-weight: 100;
+        margin-left: 10px;
+    
+      }
+      @media screen and (max-width: 320px) {
+        
+        font-size: 1em;
+        font-weight: 100;
+        margin-left: 6px;
+    
+      }
     
 }
 
 p, h3 {
     font-family: 'Satisfy';
     //font-weight: 300;
+    font-size: 1em;
     margin-block-start: 0.13em;
     margin-block-end: 0.13em;
     margin-left: 20px;
+    @media screen and (max-width: 768px) {
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
 }
 
 .portraitImage {
@@ -43,8 +62,31 @@ p, h3 {
     right: 0px;
     height: 100%;
     width: auto;
+    z-index: -1;
+    //opacity: 0.8;
 }
 
 .innerText {
     font-family: 'Raleway';
+    z-index: 1;
+    margin-top: 60px;
+    width: 33%;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.actionButton {
+    font-family: 'Raleway';
+    background-color: #36e9e6;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttonHolder {
+    margin-left: 20px;
+    width: 33%;
+    margin-top: 10px;
 }
